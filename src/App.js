@@ -1,13 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-import Posts from './components/Posts';
+import Footer from './pages/Footer/Footer.js';
+import Home from './pages/Home/Home.js';
+
+import Header from "./components/Navbar/Narbar.js";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
 
 function App() {
     return (
-      <div>
-          <h1>My Posts</h1>
-          <Posts />
-      </div>
+      <div class='omld'>
+        <Router>
+          <div class="header"><Header /></div>
+          <div class="content">
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+          </div>
+        </Router>
+        <div class="footer">
+          <Footer/>
+        </div>
+    </div>
   );
 }
 

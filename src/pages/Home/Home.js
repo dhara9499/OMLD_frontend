@@ -1,8 +1,6 @@
 import React from 'react';
 import home from './home.module.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import products from '../../assets/images/products.jpeg';
 import orders from '../../assets/images/orders.jpeg';
 import customers from '../../assets/images/customers.png';

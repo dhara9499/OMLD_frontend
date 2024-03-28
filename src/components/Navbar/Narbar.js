@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <nav className={navbar.navbar}>
           <div className={navbar.logo}>
-            <img src={Brand} alt="Heaer image" />
+            {/* <img src={Brand} alt="Heaer image" /> */}
           </div>
           <div className={navbar.navElements}>
             <ul>
